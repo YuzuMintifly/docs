@@ -3,11 +3,15 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#333",
+    "light": "#333",
+    "dark": "#333"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/yuzu-logo.png",
+  "appearance": {
+    "default": "light",
+    "strict": true
+  },
   "navigation": {
     "tabs": [
       {
@@ -76,8 +80,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/yuzu-logo.png",
+    "dark": "/yuzu-logo.png"
   },
   "navbar": {
     "links": [
